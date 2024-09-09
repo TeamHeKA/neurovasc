@@ -1,0 +1,1299 @@
+@prefix nvasc: <http://nvasc.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sphn: <http://sphn.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+nvasc:0178284b-c5a6-4c10-ad4a-2358509c5c72 a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:023abf06-d75f-41cb-88d1-36b358559860 a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:03cda34e-b1c3-450f-9e61-dd5c78c79edd a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:04f7d30d-8828-4eaf-abc7-b5fda56461e4 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:056d853c-d820-42e2-98c8-2939d1c16c83 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "28" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:07fcfcf3-f41d-4179-a746-cd30d8d2a436 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:08a901c6-c942-4249-ba7c-aea85d6136c3 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "4.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:09437718-4a9b-4559-a0cb-e4a52f43f807 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "4.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:0b041614-df5b-476d-9778-31402f4a7b9a a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:0b1080ca-99b4-43e3-88ff-9e5f4f778163 a sphn:Diagnosis ;
+    rdfs:label "dve"^^xsd:string ;
+    sphn:hasCode "00P6X0Z"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-01-02T11:19:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:0b263f58-692d-4560-9f6f-31781211d6e6 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-01-27T19:23:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:0b71275e-f3f2-44b2-8625-8e14f03cc70a a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:0b97b977-2dcf-4cc1-b5ff-8e38b5e64ba9 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2020-02-15T01:53:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:0dc6c094-2323-42fa-803f-0ce11a59404c a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "5.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:0e4e903d-08ec-4a31-95c1-87fa94275a42 a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:11083437-e85c-46fa-b338-5e53d56dfb2e a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:11e885e7-a05a-4293-b892-6c64fb41c4b5 a sphn:Diagnosis ;
+    rdfs:label "dve"^^xsd:string ;
+    sphn:hasCode "00P6X0Z"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-03-24T16:44:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:12fbc580-a517-4668-a77c-bdb2b4bca418 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:1340dc00-5dd4-476d-8478-43f96be61c53 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:14479da3-0e20-42b0-8087-e4e96d171687 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:14d49f3d-c93e-4208-b317-2cee06b246e1 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:15588060-b588-4fe0-88c7-0c64a2100d82 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:164aa569-3149-4d91-86ef-e6c9b8bb0c90 a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:1816d55c-81d3-44c8-a97f-aeb9eb22009d a sphn:Diagnosis ;
+    rdfs:label "paracetamol"^^xsd:string ;
+    sphn:hasCode "N02BE01"^^xsd:string ;
+    sphn:hasRecordDateTime "2020-12-31T01:19:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:1abdad05-e1b1-4a80-abfd-4e559ee685c9 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:1beaa0ef-ce3d-4dd3-a4e5-2c39abc70e5f a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:20020771-0ea8-424d-889f-ce8446f5e6ca a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:2105db2f-8218-4d14-bbf5-91c641501a38 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-01-01T08:19:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:21eccb61-10b1-498e-96cd-a06a2190d98d a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:2219684a-bd1c-4bb5-9c15-072f40dc7118 a sphn:Diagnosis ;
+    rdfs:label "iot"^^xsd:string ;
+    sphn:hasCode "0BH17EZ"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-06-29T18:46:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:240c9637-b3c9-42af-a8c4-017e0122b912 a sphn:Diagnosis ;
+    rdfs:label "nad"^^xsd:string ;
+    sphn:hasCode "C01CA03"^^xsd:string ;
+    sphn:hasRecordDateTime "2020-12-29T17:19:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:24b648e2-54d8-4de5-9cc3-47203500f0d4 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:276d83ff-9e04-4bbf-a7e9-b12a0841b997 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:29e93833-c92b-411f-b94c-e351a5ff4e61 a sphn:Diagnosis ;
+    rdfs:label "iot"^^xsd:string ;
+    sphn:hasCode "0BH17EZ"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-07-18T14:11:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:2a1c3290-3945-414b-ace6-cc590915dacc a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "18.81" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:2c3a26b0-8dc3-4ade-bca2-be9a78351a81 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "22" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:2cb62091-eb1f-4a94-a7fe-1b1e28d89a7e a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:2e09ffc9-516f-4412-afcb-1895e26e5307 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "8" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:2fb888f6-9cb9-4ff5-b70b-a984ff09ef8d a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:31061ec0-fe10-4b72-b382-6e7e3db1e7c2 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:31a14c02-68f6-4982-b503-171b9de6ba88 a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "59" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:31fb76bf-de15-405b-9992-535098539544 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:323a5b55-c250-4634-a508-49fc98c8cb44 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:33456e4d-d43b-43d6-b163-6b0b5e7da7cb a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "76" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:3506a7e7-9e61-4e5f-90a8-52496f37f97f a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:35806137-88ea-4781-bad0-40bcd042f88e a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:367e48c8-d271-459f-ac03-5f20b89da9f1 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:3754ad9b-10c8-4052-a4dc-2bd91fbf6984 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:391596a3-6485-4a0d-a103-7a68e1e58b7a a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:39721a9d-2af3-468e-9e17-fb7483066987 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "6.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:3a2ea675-c6f2-4c7e-9537-9bb29da642c8 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "9" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:3af4c4e3-6f6a-4ded-be54-7bfa44d19f79 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:3c685059-5e29-4c09-964f-1ff9d999bcfd a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:3c91c627-e9f5-4c1e-a0c3-f58c58867692 a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:3d31b27d-855b-4f16-ad0d-0726538b37e3 a sphn:Diagnosis ;
+    rdfs:label "iot"^^xsd:string ;
+    sphn:hasCode "0BH17EZ"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-12-06T15:30:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:3dc08a7b-1106-45fd-b3ce-e1cad9fbedc1 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:3f2c4d75-b0c6-43c7-9778-7dd4a5c669c4 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:3f3c50c2-c12e-4e28-9ff2-1e6c66443074 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:3f77e976-9315-4d36-9dbb-037945b66892 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:3fe83d43-40ec-41a9-ba7b-32a29c8ede1b a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:41bef65e-81eb-48cd-a81c-54cb9a9cda6a a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "17.45" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:42408f50-3894-49e1-bc4c-425baf25b4f4 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:4263c3b3-342e-44ad-bfb3-dde5162e47b1 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:42e96632-bfd2-4329-8597-94f1babd7830 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:4464373f-9099-40ee-a904-724f91e1f146 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:476dbb5a-084a-4f93-a92f-870f9778fcf7 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:47948082-015d-4aa7-8792-b6a464dca18a a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:47cdc505-08e1-4fd0-9b72-0c7c4727dc11 a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:48021d11-4695-4a1c-879f-3d64cf38f8d9 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:4a552d1a-d1f4-44a6-bac2-65f124b50741 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:4caedff7-ba7d-495d-bf4b-2d11ae9540a3 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "5.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:4cdd94bf-1014-4dc6-b0e9-a8241d7c0b71 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:4df9b3fb-cd0b-472c-8e5f-a377cd79891d a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:4ff6914e-649d-40a4-9010-8ae8219c62cc a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:50a066f2-14bf-4abc-b11a-295e6f973049 a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:5227510f-e7c8-486b-a02b-e8eb9aae2a48 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-02-02T13:32:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:52ba3a06-0ae9-4dde-b1b4-d14acd1eb7ee a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:546bbf56-fc1d-4dc0-aef3-5b4c2717df25 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:54885ee8-f8ed-47ce-ab98-e3cb1d5cc6a0 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:54efc37f-0b7b-4ee7-8624-64d8288546fa a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "52" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:55c08472-9f4a-4eb9-a29d-8466e6dae6b3 a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:5656cc1d-ccc4-46c4-b526-82e380808db9 a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:5754a58f-9aa5-48c0-a3fb-5a295775c53c a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "43" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:576acef2-23c2-4e58-b0fa-e57cd35bf13c a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:5a89c9b7-b762-4b47-b1e0-6df3d30a5829 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "44" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:5c051a02-fa3e-4ed7-9c4f-124fea1584dc a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:5dc256b4-beb3-4039-8b1a-1bc0c15ed70e a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:5dc877ec-a10c-4fa6-943e-6d2f116426b4 a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:5dcebe24-73a0-4592-a41a-f8a27f1e956e a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:5e3b446d-0b0a-4080-8140-11672594eba3 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "5.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:5f9447cc-e7f1-4f81-afc8-d62f41341cc9 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:61ad44de-0d8d-4f16-a583-67f6c071bae4 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:633ce06b-b095-4a32-8062-fb489e619f29 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "13" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:634133a2-2ad9-45d8-bd05-a09c9491f485 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "5.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:6445d8df-8818-46b2-b3ca-0cd0beb92056 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:658aa9c6-b71c-480e-8280-4a5c1257dc1c a sphn:Diagnosis ;
+    rdfs:label "paracetamol"^^xsd:string ;
+    sphn:hasCode "N02BE01"^^xsd:string ;
+    sphn:hasRecordDateTime "2020-01-24T12:48:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:66c4bec5-205b-408a-8733-d79ff367dfef a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:67f6c487-4ff8-4ddb-b4d2-855f901e401e a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:6a0f4d41-198e-435d-8bc2-86836f72ad7f a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:6aff271c-d963-4049-90c3-76e66ef73863 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:6b3d2429-e209-4bc5-8250-ab89cd7fd666 a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:6cf64850-243c-40a6-9295-536be11e7744 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "21.67" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:6f0ff136-fbfb-4f55-a7f7-b5b0061e3382 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:6f7a15a2-f628-4b85-8451-c0a3561f012e a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:705ff51d-4095-46b7-b8f3-be1505290c4c a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:708c55eb-4107-47e5-a7f6-d4027a92955f a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:7106ecd6-43cb-40cb-bc95-3b9b96421ee9 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:7213fd45-be56-49be-81ff-721032028151 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:72ccb36b-1578-4ac0-b7ae-d7b62ad555d5 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-05-29T14:55:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:735b7121-9427-400f-88ce-0a589ad84405 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "17.09" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:73ac9716-d615-4525-b3c8-273988d36c86 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:73bafe42-2de4-4142-8545-a1785d76bc7c a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "19.94" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:75ba857c-96d5-4692-b0e8-370b6d4e5dce a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "42" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:76a481e8-6630-4153-99ec-792888d05517 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:781ba73f-f7a2-4f04-a43f-b6ef44b273e5 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "4.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:7870cd2a-b180-4b94-88f7-cf3c0df46ed1 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:7898f86b-c00c-4b18-96dc-3b713c64188e a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:7a7cc6f7-6b51-4593-b1b6-6ad481bf121c a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:7a86b1cc-902b-47a9-a87c-bfd6b207d179 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:7bf67304-cf4a-497b-bde6-224eaa1bdd94 a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:7c397feb-890a-4dd0-b0d3-db3c03a01365 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:7cbe2314-93dc-4ebc-be42-c854f1d6a884 a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:7e1f03ed-aea9-4953-907e-4ea53f035b6c a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:7f2bda0c-17e3-4770-952c-fe9b65a33a60 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-12-05T15:30:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:80eb0415-2448-40e6-8836-c198cd08ba9d a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:81a239d9-d5eb-4992-a96a-94de6553bc6d a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:82180fdc-8391-4fe0-a100-1b74fc23e8f6 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:832aec6e-385a-4aad-b15b-0a65304db553 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "19.52" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:842c8008-edc8-49a2-8012-5249d526cd8e a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:84e37b4a-1c84-40c0-9fdd-15bfeade06bc a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "81" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:851971ed-809f-4302-96d4-90c6faecf029 a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:86c8cec1-1054-4d6d-8f41-4cb27120663f a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:8720116e-b8ff-453c-88e0-48a619b5c7f1 a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:886e326a-0596-4dd9-8755-c6ecd470db90 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "18.98" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:887ba1fa-ae7d-495d-bb51-e322c79c6c16 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:889a8b48-3d66-4b44-8e02-24c40db80e83 a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:889fdc44-6fdc-4666-b28d-ec8d85f8fdea a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:8a3428a8-e89d-4de0-96dc-e20d72ded16a a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:8cbe86a4-5bc9-465a-a356-5b39e2b3ae74 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:8d43fac9-1c4f-4648-b25b-93bf589545cc a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "5" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:8d5b55e0-70db-49eb-9f75-989bf8885b59 a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-03-22T11:44:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:8ee1676e-a06a-402f-85b4-600f1ea76cb5 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:923570a1-cc3b-435a-8b88-7c72a6bbf32d a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:9307cbc6-50df-4302-8a28-43d092b5fec1 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "3.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:9333d074-ca39-410d-9b9b-ccc94e2bc254 a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:95770ba2-a3eb-445a-a77e-d5e3d173a6b1 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:95b98b83-4d1c-4df9-81b8-45f8967bd534 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:96352831-b6d0-4d69-b0e6-0d6c88a61d8a a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:96545da2-17fc-4f7e-8fce-dffab3408cd1 a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:9725d413-543a-4628-b872-7be2369a19f0 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "34" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:9996d7b8-1a66-40d3-9a85-7ac7309bcb19 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "7.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:9a855fb8-1fd9-469e-b9b0-3f98d541ac90 a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "60" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:9aed1c6e-347e-4fb0-bf76-02dd664f6095 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:9c0eb217-b2c7-4fb0-8e51-7947f6175908 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:9c3c815b-6c21-4cc7-a458-d95d196f9306 a sphn:Diagnosis ;
+    rdfs:label "iot"^^xsd:string ;
+    sphn:hasCode "0BH17EZ"^^xsd:string ;
+    sphn:hasRecordDateTime "2022-03-23T13:44:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:9f75215d-19b0-4f2b-bea1-16d1bd19ee4a a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "76" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:a08ab155-218e-49b1-92e8-080af2755e22 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:a2c5bf69-0b14-4365-954b-bc1b0d911a91 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:a44bdc57-75f3-4d08-b7cf-b9a2a1c51a20 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "4.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:a513906d-b23d-4bb6-b08f-2c84a1ae86bd a sphn:Diagnosis ;
+    rdfs:label "hct"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:a5bf9c41-80dc-44dc-bc18-a6f75ebd6c7f a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:a7192cad-dfce-4400-bd73-b51ff6a55fd4 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:a89d8cee-faff-4a4a-a57b-2f57901e819f a sphn:Diagnosis ;
+    rdfs:label "nimodipine"^^xsd:string ;
+    sphn:hasCode "C08CA06"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-06-29T00:46:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:a98f199f-a20d-4d39-a0c3-312535a48c47 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:a99671b4-c9b0-45bb-9c75-8e3b5a9cc4a5 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:abe8b1e1-ec61-4f7a-9144-7b4fddb6569c a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "169" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:ad53ffb8-5cd4-4a60-8e0b-d2f78544bcef a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:ad8bbab0-62ff-4ed4-9392-17d6e9ed077e a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "17.7" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:af005a90-d9bc-4241-86cb-a7c86b1184b1 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:b02dc535-c80c-4a14-b967-2b9e480b1ba0 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "4.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:b208855e-7fe7-4cf2-9fdd-bd1c78a2e277 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "19.98" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:b24af799-0914-4050-b250-0deb81612f67 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:b2dc7c9c-fa70-4cb4-b4c9-3666bbf00348 a sphn:Diagnosis ;
+    rdfs:label "iot"^^xsd:string ;
+    sphn:hasCode "0BH17EZ"^^xsd:string ;
+    sphn:hasRecordDateTime "2021-01-28T15:23:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:b4dd6e5d-cfad-44b5-b93d-02877d7b5912 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "134" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:b502c90c-db49-4c95-9fee-8ab530df88cd a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:b52178a4-3ea8-4e9f-b5e1-0bb486526967 a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:b57c7ae5-3495-415a-8521-fccaf3a96e8e a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:b5aa9c3f-0b47-4767-bff4-ce4fe58cc0aa a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:b7f5e311-be2b-4e56-9e96-c849d1c3431a a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:b849b31a-1476-4d5c-b3d5-988ab642a278 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:b867a6cd-23ec-4071-a40c-e25ac3ea256e a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:b8f18f26-670c-4d3c-a997-c81263b5168b a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:bac99afe-caee-4450-917e-20592d4e5e4b a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:baf60be1-eff9-444e-bd3c-b9e98d023457 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:bb39e22b-6b20-4bdb-bfda-b3ef1b5b2e4a a sphn:Diagnosis ;
+    rdfs:label "ivh"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:bf8db6fa-6160-4c9a-a129-c11fbd4d146c a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:c49f7bf9-91ef-4e34-bcae-8fcdb8743596 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:c72a27ba-523e-422d-94a7-f797e821d18a a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:c98e96e4-afd6-4d42-903b-b0b7840a03c4 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "18" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:c9a091f9-9394-4ac4-bb2d-152ce7f10fe7 a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:cc36f02d-e378-4f10-8add-92a57550edd8 a sphn:Diagnosis ;
+    rdfs:label "gcs" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "gcs" ;
+            sphn:hasValue "18.26" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:cd8606c0-9b77-444a-bcd4-76e1ce3765f5 a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "48" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:cff9d119-f9a9-4e5c-b6ca-bec0934eb321 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:d198e1c3-fdab-4525-ad2d-bfd384c6db69 a sphn:Diagnosis ;
+    rdfs:label "ttt"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:d2b8257e-70c6-4e10-a04b-db5a608b397a a sphn:Diagnosis ;
+    rdfs:label "dve"^^xsd:string ;
+    sphn:hasCode "00P6X0Z"^^xsd:string ;
+    sphn:hasRecordDateTime "2020-02-16T05:53:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:d31afb2c-dd4d-4d59-83c3-92eeabdc2865 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:d44ad0e2-cb59-4ad6-ac10-e6909a830e92 a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "75" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:d5e722c7-f3a8-4f49-b4b1-408b314a0760 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:d602798b-d465-4b44-b400-6964c0d74339 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:d617c7db-2d58-4291-bb19-69ad6fd917cb a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "39" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:d6e3e0ae-8b6b-4af3-9df2-cefe710d9f84 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:d6f6a6c3-3dc1-4fab-83cf-5e96d6fdf023 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:d8eabc83-80c7-4de0-b577-88bb6de0dab7 a sphn:Diagnosis ;
+    rdfs:label "instable"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:da45b419-f939-4b1e-92c1-8a4ebabb910f a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:dabed447-ce61-44a0-877b-186c321c71ff a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:db975f7c-e8f3-4aeb-89bd-288b1a3d8ffa a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "86" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:dba4e493-5d6a-4ad5-a5e6-4cd00ba9570c a sphn:Diagnosis ;
+    rdfs:label "o2_clinic"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:dc7af2d1-7fab-4cba-ac8e-a96ad691bb27 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "2" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:dd0aaf8f-a185-438f-a71c-b4c75e3a78e2 a sphn:Diagnosis ;
+    rdfs:label "ica_therapy"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:de8e9851-a505-45c4-855c-07de6e582c66 a sphn:Diagnosis ;
+    rdfs:label "ica"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:e08394c8-6392-4d22-b014-41b1ce06e1ac a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:e24268ec-38f3-469b-87c2-a3f232fcf775 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "3.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:e3db2a49-9bd3-4a32-bc43-6116c4774445 a sphn:Diagnosis ;
+    rdfs:label "entry_code"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:e45dcebb-9b07-49f7-b600-aa234d76787b a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "70" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:e6e6edb0-bc60-4da7-b448-c4d80b04d8fa a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "133" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:e70417f1-288b-4f26-bbb7-3e3433aefb68 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:e7db37a6-c385-4a7e-9a53-00eb4dcfa93d a sphn:Diagnosis ;
+    rdfs:label "etOH"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:e84129c5-3dff-4faf-9868-fd077f08e19a a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_4 .
+
+nvasc:e9503757-f58d-40db-86ab-1b6cbad589ed a sphn:Diagnosis ;
+    rdfs:label "headache"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:eb3b219a-8e2c-4c37-8072-7ea534784ed3 a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:eb8efec0-b10b-41f9-b7cd-af696d012534 a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_6 .
+
+nvasc:ebb06d6a-d913-4fd5-875d-a03137704f64 a sphn:Diagnosis ;
+    rdfs:label "hospital_stay_length" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "days" ;
+            sphn:hasValue "41" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_0 .
+
+nvasc:ee10973e-280e-4f36-83b9-2a93642de3fe a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:ee61f9e6-489b-4036-a737-6179a0c4dc0b a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:efd0e06d-19a6-4df6-a4ed-8dbf28072636 a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_7 .
+
+nvasc:f11c0710-6c90-4826-9577-8d293761f7ea a sphn:Diagnosis ;
+    rdfs:label "gender"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:f3d8fbd0-570f-4657-9c34-0a6e79954c3d a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:f3dcd175-cd6d-4bbb-af70-f953b98801b0 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_1 .
+
+nvasc:f431ec19-e1d6-46a7-b80c-cfc156bdca7a a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "16" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:f56a50fc-13a3-457e-9113-fa123297f887 a sphn:Diagnosis ;
+    rdfs:label "age" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "age" ;
+            sphn:hasValue "87" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_3 .
+
+nvasc:f5e357be-fe44-431b-be98-77e0befa7028 a sphn:Diagnosis ;
+    rdfs:label "nb_acte" ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "received medical treatments" ;
+            sphn:hasValue "79" ] ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:f7505560-8926-432b-8f95-8d450e78cbf2 a sphn:Diagnosis ;
+    rdfs:label "hta"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_8 .
+
+nvasc:f77c04d2-e092-48d9-8b28-ad75bf7c0e92 a sphn:Diagnosis ;
+    rdfs:label "o2"^^xsd:string ;
+    sphn:hasCode "1.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:f81d622a-4c72-46f5-8e30-91c875ad2db7 a sphn:Diagnosis ;
+    rdfs:label "entry"^^xsd:string ;
+    sphn:hasCode "2.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_2 .
+
+nvasc:f8e5ffa2-9611-41b1-be73-35a88573ce7d a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_9 .
+
+nvasc:fa83567b-7b98-4e0f-a1b8-d94dac004009 a sphn:Diagnosis ;
+    rdfs:label "vasospasme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:fad15043-1dec-46ea-b2a6-a257afde7e13 a sphn:Diagnosis ;
+    rdfs:label "fever"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:fc365fb9-9147-4367-bc14-48358e7fbd02 a sphn:Diagnosis ;
+    rdfs:label "diabete"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
+nvasc:fe92c328-f4bb-4522-b645-297177cc1923 a sphn:Diagnosis ;
+    rdfs:label "tabagisme"^^xsd:string ;
+    sphn:hasCode "0.0"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier nvasc:synth_patient_5 .
+
