@@ -3,7 +3,7 @@
 ```
 python3 main_sphn.py
 ```
-#### Help for other options:
+#### For other options check:
 ```
 python3 main_sphn.py -h
 ```
