@@ -1,0 +1,14 @@
+0	<http://sphn.org/hasQuantity>
+1	<http://www.w3.org/2006/time#before>
+2	<http://sphn.org/hasDrug>
+3	<http://sphn.org/hasCode>
+4	<http://sphn.org/hasUnit>
+5	<http://www.w3.org/2000/01/rdf-schema#label>
+6	<http://nvasc.org/hasDrugAdministrationEvent>
+7	<http://sphn.org/hasValue>
+8	<http://sphn.org/hasStartDateTime>
+9	<http://nvasc.org/hasGender>
+10	<http://nvasc.org/hasProcedure>
+11	<http://nvasc.org/hasDiagnosis>
+12	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+13	<http://nvasc.org/hasAge>
