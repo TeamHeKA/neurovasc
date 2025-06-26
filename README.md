@@ -32,10 +32,12 @@ The results will be saved in the "exp/result" folder.
 
 ## Citation
 ```
-@article{jhee2025predicting,
+@inproceedings{jhee2025predicting,
   title={Predicting clinical outcomes from patient care pathways represented with temporal knowledge graphs},
-  author={Jhee, Jong Ho and Megina, Alberto and Beaufils, Pac{\^o}me Constant Dit and Karakachoff, Matilde and Redon, Richard and Gaignard, Alban and Coulet, Adrien},
-  journal={arXiv preprint arXiv:2502.21138},
-  year={2025}
+  author={Jhee, Jong Ho and Megina, Alberto and Constant Dit Beaufils, Pac{\^o}me and Karakachoff, Matilde and Redon, Richard and Gaignard, Alban and Coulet, Adrien},
+  booktitle={European Semantic Web Conference},
+  pages={282--300},
+  year={2025},
+  organization={Springer}
 }
 ```
