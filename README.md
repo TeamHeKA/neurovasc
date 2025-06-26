@@ -1,7 +1,7 @@
 # Predicting clinical outcomes from patient care pathways represented with temporal knowledge graphs
 This repository is the official PyTorch implementation of the experiments for clinical outcome prediction task, as described in the following paper:
 
-Jhee, J. H., Megina, A., Beaufils, P. C. D., Karakachoff, M., Redon, R., Gaignard, A., Coulet, A. [Predicting clinical outcomes from patient care pathways represented with temporal knowledge graphs](https://arxiv.org/abs/2502.21138). (ESWC 2025)
+Jhee, J. H., Megina, A., Beaufils, P. C. D., Karakachoff, M., Redon, R., Gaignard, A., Coulet, A. [Predicting clinical outcomes from patient care pathways represented with temporal knowledge graphs](https://link.springer.com/chapter/10.1007/978-3-031-94575-5_16). (ESWC 2025)
 
 ## Installation & Dependencies
 The code is mainly tested on Python 3.11 and a Linux OS.
