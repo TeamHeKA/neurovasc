@@ -16,3 +16,6 @@
 * Run "Graphs/data_preprocess_xxx.ipynb" for preprocessing the graph data.
 * Run "Graphs/rgcn_node_pred.ipynb" to reproduce the result of RGCN+lit model.
 * The results are saved in "Graphs/result" folder.
+
+## Acknowledgement
+We acknowledge that the `care_transition_probability.csv` file, which is used to generate synthetic data, contains inconsistencies between the tabular and graph data configurations. This discrepancy may have had an impact on the comparative performance of the tabular and graph-based models.
