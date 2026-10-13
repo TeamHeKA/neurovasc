@@ -39,8 +39,8 @@ def gen_sphn_kg(num_patients, timeOpt):
         "nad": "C01CA03",  # ACT / drug administration event
         "corotrop": "C01CE02",  # ACT / drug administration event
         "morphine": "N02AA01",  # ACT / drug administration event
-        "dve": "00P6X0Z",  # Removal of Drainage Device from Cerebral Ventricle External Approach (ICD-10) / procedure
-        "atl": "Z98.6",  # ICD-10 Drainage Device from Cerebral Ventricle External Approach (ICD-10) / procedure
+        "dve": "009630Z",  # ICD-10-PCS Drainage of Cerebral Ventricle with Drainage Device, Percutaneous Approach / procedure
+        "atl": "037G3ZZ",  # ICD-10-PCS Dilation of Intracranial Artery, Percutaneous Approach / procedure
         "iot": "0BH17EZ",  # ICD-10 / procedure thacheotomie
     }
 
