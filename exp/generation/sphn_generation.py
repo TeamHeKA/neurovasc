@@ -68,7 +68,7 @@ def gen_sphn_kg(num_patients, timeOpt):
        
         sphn_procedure_template = Template(
         """
-        nvasc:$proc_id a sphn:Pocedure ;
+        nvasc:$proc_id a sphn:MedicalProcedure ;
             rdfs:label "$proc_label"^^xsd:string ;
             sphn:hasCode nvasc:code_$proc_code .
             
@@ -88,7 +88,7 @@ def gen_sphn_kg(num_patients, timeOpt):
     else:
         sphn_procedure_template = Template(
         """
-        nvasc:$proc_id a sphn:Pocedure ;
+        nvasc:$proc_id a sphn:MedicalProcedure ;
             rdfs:label "$proc_label"^^xsd:string ;
             sphn:hasCode nvasc:code_$proc_code ;
             sphn:hasStartDateTime "$proc_start_date"^^xsd:dateTime .
